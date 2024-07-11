@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101326858616",
+    "project_id": "bychance-1deb3",
+    "storage_bucket": "bychance-1deb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101326858616:android:ff92c3fc750d810734008d",
+        "android_client_info": {
+          "package_name": "com.example.trialone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrfhNL3qYiA4ZK51MVZ4Udyme-b39uztQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

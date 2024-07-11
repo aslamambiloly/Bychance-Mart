@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/startBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:elevation="10dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgTop1"
+            android:layout_width="match_parent"
+            android:layout_height="952dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="-20dp"
+            android:contentDescription="@string/hi_there"
+            android:elevation="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bgtop"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imgSide1"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="-20dp"
+            android:layout_marginStart="-20dp"
+            android:contentDescription="@string/bychance_is_a_delivery_solution_for_specific_regions"
+            android:scaleType="fitXY"
+            android:src="@drawable/art"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <ImageView
+            android:id="@+id/imgBottom1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Specially designed for Indira Gandhi National TR"
+            android:scaleType="fitXY"
+            android:src="@drawable/bgbottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar6"
+            style="@android:style/Widget.Holo.ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateOnly="true"
+            android:indeterminateTint="@color/black"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
